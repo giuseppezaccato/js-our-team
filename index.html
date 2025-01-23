@@ -11,27 +11,68 @@
 </head>
 
 <body>
-    <header class="text-center">
-        <h1 class=" text-danger my-4"> meet our team</h1>
-        <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. A iste tempora soluta saepe at eos enim
-            recusandae
-            necessitatibus voluptatum, quisquam reiciendis odit eveniet facere deleniti hic numquam aspernatur eligendi
-            iusto?
-            Quia, laboriosam excepturi rerum qui dignissimos id illum error reprehenderit debitis ratione adipisci
-            tempora quisquam minima quibusdam explicabo optio, accusantium odit atque reiciendis rem at facere!
-            Molestiae modi inventore adipisci.
-            Excepturi, dicta iusto, ullam soluta exercitationem id inventore incidunt accusantium corporis autem odit
-            doloremque amet ratione, dolor nisi. Id itaque ratione nam dolorem enim officia vel autem impedit est
-            aperiam!</p>
-    </header>
-
-    <main>
-        <div class="container mx-auto row row-cols-3 ">
+    <div class="container">
 
 
-        </div>
+        <header class="text-center">
+            <h1 class=" text-danger my-4"> meet our team</h1>
+            <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. A iste tempora soluta saepe at eos
+                enim
+                recusandae
+                necessitatibus voluptatum, quisquam reiciendis odit eveniet facere deleniti hic numquam aspernatur
+                eligendi
+                iusto?
+                Quia, laboriosam excepturi rerum qui dignissimos id illum error reprehenderit debitis ratione adipisci
+                tempora quisquam minima quibusdam explicabo optio, accusantium odit atque reiciendis rem at facere!
+                Molestiae modi inventore adipisci.
+                Excepturi, dicta iusto, ullam soluta exercitationem id inventore incidunt accusantium corporis autem
+                odit
+                doloremque amet ratione, dolor nisi. Id itaque ratione nam dolorem enim officia vel autem impedit est
+                aperiam!</p>
+        </header>
 
-    </main>
+        <main>
+            <!--task piccolo accenno alle media query con bs in md,lg e xl -->
+            <div id="teams" class="mx-auto row row-cols-lg-3 row-cols-md-2 row-cols-xl-auto ">
+
+
+            </div>
+
+            <div class=" row">
+                <div class="col-6 mx-auto my-4">
+                    <form>
+                        <div class="mb-2">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-2">
+                            <label for="role" class="form-label">Role</label>
+                            <input type="text" class="form-control" id="role">
+                        </div>
+                        <div class="mb-2">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="email" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-2">
+                            <label for="img" class="form-label">Image</label>
+                            <input type="text" class="form-control" id="img">
+                        </div>
+
+
+                        <div class="mb-2 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button id="sub" type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </main>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
